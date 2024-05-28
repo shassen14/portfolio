@@ -1,4 +1,3 @@
-import Image from "next/image";
 import LeftSide from "@/components/LeftSide";
 
 // main = display: flex, min-height: 100vh, flex-direction: column, align-items: center, padding-top: 24px,
@@ -14,9 +13,7 @@ export default function Home() {
       <div className="z-5 w-full max-w-5xl font-sans text-sm flex flex-col lg:flex-row justify-between ">
         <LeftSide></LeftSide>
         <div className="lg:pl-[20%]">
-          {/* <p> */}
           Column two will include about me, experience, education, projects
-          {/* </p> */}
         </div>
       </div>
     </main>
